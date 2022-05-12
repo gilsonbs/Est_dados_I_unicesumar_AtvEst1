@@ -20,7 +20,7 @@ main () {
 	xp = (int *) malloc(sizeof (int));
 	// Preenchendo a memória com o valor 42 e imprimindo o ponteiro na memória contido nele
 	printf ("Endereco %p \nValor: %d\n\n", xp, *xp);
-	*xp = 42;
+	*xp = 54;
 	printf("Endereco: %p \nValor: %d\n\n", xp, *xp);
 	printf("############################\n\n");
 	printf("Confesso que e um grande desafio \n\n ...porem nao iremos desistir!\n\n");
